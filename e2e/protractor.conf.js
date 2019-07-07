@@ -11,7 +11,7 @@ exports.config = {
   capabilities: {
     'browserName': 'chrome',
     'chromeOptions': {
-      'args': [ 'show-fps-counter=true', '--no-sandbox']
+      'args': [ 'show-fps-counter=true', '--no-sandbox', '--disable-dev-shm-usage']
       // 'args': ['--headless', 'show-fps-counter=true', '--no-sandbox']  // headless
     }
   },
